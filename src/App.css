@@ -1,6 +1,13 @@
 .App {
   text-align: center;
+  background-color: pink;
 }
+
+.App-homepage-image {
+  width: 700px;
+}
+
+
 
 .App-logo {
   height: 40vmin;

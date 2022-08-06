@@ -21,9 +21,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Tarot Reading</h1>
       <BrowserRouter>
         <NavBar />
+        <img className="App-homepage-image"src="/noun-mystical-cat-1991106.png"></img>
         <RouteList pullCards={pullCards} cards={cards}/>
       </BrowserRouter>
     </div>

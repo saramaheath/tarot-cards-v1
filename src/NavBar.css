@@ -1,0 +1,27 @@
+.navbar {
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 50px;
+    font-size: 24px;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(151, 84, 84);
+
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(68, 134, 68);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(107, 107, 167);
+  }
