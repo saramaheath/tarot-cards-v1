@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./PickDeckForm.css";
 
 function PickDeckForm({ pullCards }) {
   const [formData, setFormData] = useState({});
@@ -22,6 +23,8 @@ function PickDeckForm({ pullCards }) {
 
   return (
     <div>
+      <img className="small-image"src="/noun-sun-3382507.svg"></img>
+      <img className="small-image"src="/noun-moon-3382303.svg"></img>
       <h2>Pull Your Cards</h2>
       <form className="PickDeckForm" onSubmit={handleSubmit}>
         <div className="mb-3">
