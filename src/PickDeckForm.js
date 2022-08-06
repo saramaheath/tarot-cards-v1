@@ -1,7 +1,8 @@
 import { useState } from "react";
 
-function PickDeckForm() {
-  const [formData, setFormData] = useState();
+function PickDeckForm({ pullCards }) {
+  const [formData, setFormData] = useState({});
+  console.log('formData', formData)
 
   /** Update form input. */
   function handleChange(evt) {
@@ -15,6 +16,7 @@ function PickDeckForm() {
   /** Call parent function and clear form. */
   function handleSubmit(evt) {
     evt.preventDefault();
+    console.log(formData.cardNum, 'cardnum');
     pullCards(formData.cardNum);
   }
 
