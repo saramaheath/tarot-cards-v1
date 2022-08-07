@@ -4,14 +4,20 @@ body {
 
 .App {
   text-align: center;
-  
 }
 
 .App-homepage-image {
   width: 700px;
 }
 
+.App-homepage-image-1 {
+  width: 200px;
+}
 
+.App-homepage-image-2 {
+  width: 200px;
+  transform: scaleX(-1);
+}
 
 .App-logo {
   height: 40vmin;

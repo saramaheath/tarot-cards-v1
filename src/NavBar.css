@@ -1,32 +1,32 @@
 .navbar {
-    text-align: left;
-    margin-top: 25px;
-    margin-left: 50px;
-    font-size: 24px;
+  text-align: left;
+  margin-top: 25px;
+  margin-left: 50px;
+  font-size: 24px;
 }
 
 /* unvisited link */
 a:link {
-    color: rgb(151, 84, 84);
-    text-decoration: none;
-    font-family: 'Lobster', cursive;
+  color: rgb(151, 84, 84);
+  text-decoration: none;
+  font-family: "Macondo Swash Caps", cursive;
+  font-weight: bold;
+}
 
-  }
-  
-  /* visited link */
-  a:visited {
-    color: rgb(68, 134, 68);
-    text-decoration: none;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: hotpink;
-    text-decoration: none;
-  }
-  
-  /* selected link */
-  a:active {
-    color: rgb(107, 107, 167);
-    text-decoration: none;
-  }
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: rgb(107, 107, 167);
+  text-decoration: none;
+}

@@ -1,0 +1,28 @@
+.Card-name {
+  font-family: "Macondo Swash Caps", cursive;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: white;
+  box-shadow: 10px 10px 8px #363535;
+  padding: 5px;
+  margin-left: 700px;
+  margin-right: 700px;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+
+.Card-image {
+  border-radius: 2%;
+  box-shadow: 10px 10px 8px #363535;
+}
+
+.Card-description {
+  border-radius: 5px;
+  margin-left: 450px;
+  margin-right: 450px;
+  font-family: "Macondo Swash Caps", cursive;
+  font-size: 24px;
+  background-color: rgb(239, 240, 220);
+  box-shadow: 10px 10px 8px #363535;
+  padding: 5px;
+}

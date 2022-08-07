@@ -1,8 +1,10 @@
 import { useState } from "react";
 import "./PickDeckForm.css";
+import { useNavigate } from "react-router-dom";
 
 function PickDeckForm({ pullCards }) {
   const [formData, setFormData] = useState({});
+  const navigate = useNavigate();
   console.log("formData", formData);
 
   /** Update form input. */
@@ -19,6 +21,8 @@ function PickDeckForm({ pullCards }) {
     evt.preventDefault();
     console.log(formData.cardNum, "cardnum");
     pullCards(formData.cardNum);
+    navigate("/deck");
+
   }
 
   return (
