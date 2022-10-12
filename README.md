@@ -1,3 +1,7 @@
+#Tarot Card React App
+
+![Tarot-Cards-App](https://user-images.githubusercontent.com/84295202/195461679-f5ca6db9-a2df-49d0-8832-ae4f2bb398b5.jpg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
