@@ -1,6 +1,6 @@
 #Tarot Card React App
 
-![Tarot-Cards-App](https://user-images.githubusercontent.com/84295202/195461679-f5ca6db9-a2df-49d0-8832-ae4f2bb398b5.jpg)
+![Tarot-Cards-App (1)](https://user-images.githubusercontent.com/84295202/195461849-c30e287b-62d2-40ac-b561-41d38ed1142e.jpg)
 
 # Getting Started with Create React App
 
