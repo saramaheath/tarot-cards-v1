@@ -4,6 +4,27 @@ import PickDeckForm from "./PickDeckForm";
 import Homepage from "./Homepage";
 
 
+/**RouteList, sitewide routes
+ *
+ * props:
+ * -cards(arr) like: [{
+			"name": "Seven of Pentacles",
+			"name_short": "pe07",
+			"value": "seven",
+			"value_int": 7,
+			"suit": "pentacles",
+			"type": "minor",
+			"meaning_up": "These are exceedingly ...",
+			"meaning_rev": "Cause for anxiety regarding...",
+			"desc": "A young man, leaning on his staff..."
+		}, 
+    {...}, ...]
+ * -pullCards(function to be called in parent)
+ * 
+ * state:none
+ *
+ * RoutesList -> {Deck, PickDeckForm, Homepage}
+ */
 function RouteList({ cards, pullCards }) {
   return (
     <div>

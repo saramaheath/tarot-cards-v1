@@ -1,3 +1,10 @@
+/**Homepage, renders homepage view
+ *
+ * props:none
+ * state:none
+ * RouteList -> Homepage
+ */
+
 function Homepage(){
     return (
         <div>

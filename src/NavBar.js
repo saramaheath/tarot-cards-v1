@@ -1,6 +1,13 @@
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 
+/**NavBar, renders navbar throughout site navigation
+ *
+ * props:none
+ * state:none
+ * App -> NavBar
+ */
+
 function NavBar() {
   return (
     <nav className="navbar navbar--expand-md mb-4">
