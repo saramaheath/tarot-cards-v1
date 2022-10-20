@@ -17,8 +17,7 @@ import { useNavigate } from "react-router-dom";
  * navigate:
  * -useNavigate(function to redirect user)
  *
- * Routes -> SignupForm -> Alert
- * Routed as /signup
+ * RouteList -> PickDeckForm
  */
 
 function PickDeckForm({ pullCards }) {

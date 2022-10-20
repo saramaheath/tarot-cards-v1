@@ -1,0 +1,43 @@
+.BackCard-image {
+  width: 200px;
+  background-color: rgb(69, 78, 151);
+  border-radius: 10%;
+  box-shadow: 10px 10px 8px #363535;
+}
+
+.BackCard-image:nth-child(1):hover {
+  width: 250px;
+  transform: translate(-10%) rotate(-3deg);
+}
+
+.BackCard-image:nth-child(2):hover {
+  width: 250px;
+  transform: translate(-10%) rotate(3deg);
+}
+
+.BackCard-image:nth-child(3):hover {
+  width: 250px;
+  transform: translate(-10%) rotate(-3deg);
+}
+
+.BackCard-image:nth-child(4):hover {
+  width: 250px;
+  transform: translate(-10%) rotate(3deg);
+}
+
+.BackCard-image:nth-child(5):hover {
+  width: 250px;
+  transform: translate(-10%) rotate(-3deg);
+}
+.BackCard-image:nth-child(6):hover {
+  width: 250px;
+  transform: translate(-10%) rotate(3deg);
+}
+
+.BackCard-image-clicked {
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10%;
+  box-shadow: 10px 10px 8px #363535;
+}
+

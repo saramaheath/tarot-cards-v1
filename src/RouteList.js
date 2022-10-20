@@ -1,6 +1,6 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import Deck from "./Deck";
-import PickDeckForm from "./PickDeckForm";
+import NewPickDeckForm from "./NewPickDeckForm";
 import Homepage from "./Homepage";
 
 
@@ -32,7 +32,7 @@ function RouteList({ cards, pullCards }) {
         <Route path="/deck" element={<Deck cards={cards} />} />
         <Route
           path="/pickdeck"
-          element={<PickDeckForm pullCards={pullCards} />}
+          element={<NewPickDeckForm pullCards={pullCards} />}
         />
         <Route path="/" element={<Homepage />}/>
       </Routes>
