@@ -1,4 +1,5 @@
 import Card from "./Card";
+import "./Deck.css";
 
 /**Deck, renders list of cards 
  *
@@ -23,7 +24,7 @@ import Card from "./Card";
 
 function Deck({ cards }) {
   return (
-    <div>
+    <div className="Deck">
       {cards.map((card) => <Card key={card.name_short} card={card} />)}
     </div>
     ) 

@@ -1,7 +1,6 @@
 import "./Card.css";
 import { useState } from "react";
 
-
 /**Card, renders single card
  *
  * props:
@@ -44,7 +43,11 @@ function Card({ card }) {
   return (
     <div className="Card">
       <h3 className="Card-name">{`${card.name}`}</h3>
-      <img className="Card-image" src={`/cards/${suit}${value}.jpg`} alt={`${suit}${value}`}></img>
+      <img
+        className="Card-image"
+        src={`/cards/${suit}${value}.jpg`}
+        alt={`${suit}${value}`}
+      ></img>
       <p className="Card-description">{`${card.desc}`}</p>
       <button onClick={revealStandard}>Meaning Standard</button>
       <button onClick={revealReversed}>Meaning Reversed</button>
