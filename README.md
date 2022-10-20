@@ -1,4 +1,5 @@
 #Tarot Card React App
+![react-tarot1](https://user-images.githubusercontent.com/84295202/197078313-9e8ef6bc-80ab-4d8c-9f1e-817a780ee7a7.gif)
 
 ![Tarot-Cards-App (1)](https://user-images.githubusercontent.com/84295202/195461849-c30e287b-62d2-40ac-b561-41d38ed1142e.jpg)
 
