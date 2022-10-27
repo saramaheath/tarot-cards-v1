@@ -16,7 +16,14 @@
   box-shadow: 10px 10px 8px #363535;
 }
 
-.Card-description {
+.Card-image-reversed {
+  border-radius: 2%;
+  margin: 20px;
+  box-shadow: 10px 10px 8px #363535;
+  transform: rotate(180deg);
+}
+
+.Card-description, .Card-standard, .Card-reverse {
   border-radius: 5px;
   margin: 10px;
   font-family: "Macondo Swash Caps", cursive;
@@ -35,4 +42,26 @@
   margin: 10px;
   width: 400px;
   
+}
+
+.Card-standard, .Card-reverse {
+  border-radius: 5px;
+  margin: 10px;
+  font-family: "Macondo Swash Caps", cursive;
+  font-size: 24px;
+  background-color: rgb(239, 240, 220);
+  box-shadow: 10px 10px 8px #363535;
+  padding: 5px;
+  width: 400px;
+}
+
+.Card button {
+  margin: 5px;
+  font-family: "Macondo Swash Caps", cursive;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: rgb(206, 207, 177);;
+  box-shadow: 10px 10px 8px #363535;
+  padding: 5px;
+  border-style: none;
 }

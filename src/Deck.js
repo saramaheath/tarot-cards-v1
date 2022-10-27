@@ -25,9 +25,11 @@ import "./Deck.css";
 function Deck({ cards }) {
   return (
     <div className="Deck">
-      {cards.map((card) => <Card key={card.name_short} card={card} />)}
+      {cards.map((card) => (
+        <Card key={card.name_short} card={card} />
+      ))}
     </div>
-    ) 
+  );
 }
 
 export default Deck;

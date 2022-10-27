@@ -34,10 +34,28 @@ function App() {
   const [cards, setCards] = useState([]);
   console.log("app", "cards", cards);
 
+  /**API Call for getting random cards by requested number
+   * TAKES: cardNum (int)
+   * sets state with card response data
+   */
   async function pullCards(cardNum) {
     const response = await axios.get(`${BASE_URL}${cardNum}`);
-    console.log(response, "response***********");
-    setCards(response.data.cards);
+    const cardsWithOrientation = response.data.cards.map((card) => ({
+      isReversed: reversedOrStandard(),
+      ...card,
+    }));
+    setCards(cardsWithOrientation);
+  }
+
+  /**returns str (reversed or standard) randomly with 32% odds
+   */
+  function reversedOrStandard() {
+    const randomNum = Math.floor(Math.random() * 100);
+    if (randomNum < 32) {
+      return "reversed";
+    } else {
+      return "standard";
+    }
   }
 
   return (
